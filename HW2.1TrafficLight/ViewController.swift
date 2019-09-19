@@ -25,6 +25,7 @@ class ViewController: UIViewController {
         yellowCircle.layer.cornerRadius = 75
         greenCrircle.layer.cornerRadius = 75
         startButton.setTitle("Start", for: .normal)
+        startButton.layer.cornerRadius = 10
     }
 
     @IBAction func startButtonTap() {
